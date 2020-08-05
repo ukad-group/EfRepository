@@ -6,8 +6,8 @@
     <Authors>Ukad-Group</Authors>
     <Description>Implemenation of generic repository interface for entity framework</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/ukad-group/IRepository</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ukad-group/IRepository</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ukad-group/EfRepository</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ukad-group/EfRepository</RepositoryUrl>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
   </PropertyGroup>
 
