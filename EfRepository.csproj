@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://github.com/ukad-group/EfRepository</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ukad-group/EfRepository</RepositoryUrl>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
