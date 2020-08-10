@@ -21,7 +21,7 @@ namespace System.Data
         /// <exception cref="ArgumentNullException">unitOfWork</exception>
         public EntityFrameworkRepository(IEfRepositoryDbContext dbContext)
         {
-            DbContext = dbContext as DbContext ?? throw new ArgumentNullException("dbContext");
+            DbContext = dbContext as DbContext ?? throw new ArgumentNullException(nameof(dbContext));
 
             DbSet = DbContext.Set<T>();
         }
@@ -259,5 +259,16 @@ namespace System.Data
             }
         }
 
+        /// <summary>
+        /// Patches the specified entity.
+        /// </summary>
+        /// <typeparam name="TProperty">The type of the property.</typeparam>
+        /// <param name="entity">The entity.</param>
+        /// <param name="propertyExpression">The property expression.</param>
+        public void Patch<TProperty>(T entity, Expression<Func<T, TProperty>> propertyExpression)
+        {
+            DbContext.Attach(entity);
+            DbContext.Entry(entity).Property(propertyExpression).IsModified = true;
+        }
     }
 }

@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
-    <PackageReference Include="UkadGroup.IRepository" Version="1.0.1" />
+    <PackageReference Include="UkadGroup.IRepository" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
