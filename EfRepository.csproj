@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>UkadGroup.EfRepository</PackageId>
     <Authors>Ukad-Group</Authors>
-    <Description>Implemenation of generic repository interface for entity framework</Description>
+    <Description>Implementation of generic repository interface for Entity Framework Core</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ukad-group/EfRepository</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ukad-group/EfRepository</RepositoryUrl>

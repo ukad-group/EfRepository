@@ -175,7 +175,6 @@ namespace System.Data
                 DbSet.Attach(entity);
             }
             dbEntityEntry.State = EntityState.Modified;
-            //return dbEntityEntry;
         }
 
 
@@ -213,11 +212,9 @@ namespace System.Data
         /// <param name="id">The id.</param>
         public virtual void Delete(int id)
         {
-            while (true)
-            {
-                var entity = GetById(id);
-                if (entity == null) return; // not found; assume already deleted.
-            }
+            var entity = GetById(id);
+            if (entity == null) return;
+            Delete(entity);
         }
 
         /// <summary>
