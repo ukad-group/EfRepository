@@ -73,3 +73,8 @@ public class ProductService
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+## Support and Engineering Services
+
+UKAD provides engineering support for teams that need help with solution design, integration or long term development.
+If you want to extend this project or need expertise in .NET, React, Azure, AI, Umbraco or Optimizely, you can contact us at hi@ukad-group.com.
